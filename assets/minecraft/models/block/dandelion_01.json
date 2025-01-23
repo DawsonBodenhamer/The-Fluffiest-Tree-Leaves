@@ -1,0 +1,71 @@
+{
+	"credit": "Made by Arthiya with Blockbench",
+	"texture_size": [85, 7],
+	"textures": {
+		"0": "block/new_flower_blade",
+		"1": "block/new_flower",
+		"particle": "block/new_flower_blade"
+	},
+	"elements": [
+		{
+			"name": "blade",
+			"from": [0, -1, 6],
+			"to": [16, 15, 6],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7, 6]},
+			"faces": {
+				"north": {"uv": [8.25, 0, 12.25, 8], "texture": "#0"},
+				"south": {"uv": [12.25, 0, 8.25, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [1, -2, 12],
+			"to": [17, 14, 12],
+			"rotation": {"angle": -45, "axis": "y", "origin": [9, 6, 12]},
+			"faces": {
+				"north": {"uv": [16, 0, 12, 8], "texture": "#0"},
+				"south": {"uv": [12, 0, 16, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [4, 0, -1],
+			"to": [4, 16, 15],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 7]},
+			"faces": {
+				"east": {"uv": [12, 0, 16, 8], "texture": "#0"},
+				"west": {"uv": [16, 0, 12, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [0, 7, 2.7],
+			"to": [7, 7, 9.7],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [3.5, 7, 6.2]},
+			"faces": {
+				"up": {"uv": [0, 0, 1.31706, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 1.31706, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [5, 5.3, 2],
+			"to": [12, 5.3, 9],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8.5, 5.3, 5.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 1.31706, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 1.31706, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [6, 5, 8.7],
+			"to": [13, 5, 15.7],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [9.5, 5, 12.2]},
+			"faces": {
+				"up": {"uv": [0, 0, 1.31706, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 1.31706, 16], "rotation": 270, "texture": "#1"}
+			}
+		}
+	]
+}

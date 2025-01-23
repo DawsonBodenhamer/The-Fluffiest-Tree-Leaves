@@ -1,0 +1,71 @@
+{
+	"credit": "Made by Arthiya with Blockbench",
+	"texture_size": [35, 7],
+	"textures": {
+		"0": "block/new_flower_blade",
+		"1": "block/new_flower",
+		"particle": "block/new_flower_blade"
+	},
+	"elements": [
+		{
+			"name": "blade",
+			"from": [9, 0, -4],
+			"to": [9, 16, 12],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [9, 8, 4]},
+			"faces": {
+				"east": {"uv": [8.25, 8, 12.25, 16], "texture": "#0"},
+				"west": {"uv": [12.25, 8, 8.25, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [-0.3, -2, 8],
+			"to": [15.7, 14, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.7, 6, 8]},
+			"faces": {
+				"north": {"uv": [12, 0, 16, 8], "texture": "#0"},
+				"south": {"uv": [16, 0, 12, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [4, -2, -2],
+			"to": [4, 14, 14],
+			"rotation": {"angle": 45, "axis": "y", "origin": [4, 6, 6]},
+			"faces": {
+				"east": {"uv": [12.25, 0, 8.25, 8], "texture": "#0"},
+				"west": {"uv": [8.25, 0, 12.25, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [6, 3, -0.4],
+			"to": [13, 3, 6.6],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [9.5, 3, 3.1]},
+			"faces": {
+				"up": {"uv": [6.58529, 0, 7.90235, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [7.90235, 0, 6.58529, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [0.1, 4.1, 2],
+			"to": [7.1, 4.1, 9],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [3.6, 4.1, 5.5]},
+			"faces": {
+				"up": {"uv": [6.58529, 0, 7.90235, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6.58529, 0, 7.90235, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [3.7, 5.1, 4.3],
+			"to": [10.7, 5.1, 11.3],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [7.2, 5.1, 7.8]},
+			"faces": {
+				"up": {"uv": [6.58529, 0, 7.90235, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6.58529, 0, 7.90235, 16], "rotation": 90, "texture": "#1"}
+			}
+		}
+	]
+}

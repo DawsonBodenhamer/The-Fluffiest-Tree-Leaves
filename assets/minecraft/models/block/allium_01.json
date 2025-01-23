@@ -1,0 +1,71 @@
+{
+	"credit": "Made by Arthiya with Blockbench",
+	"texture_size": [85, 7],
+	"textures": {
+		"0": "block/new_flower_blade",
+		"1": "block/new_flower",
+		"particle": "block/new_flower_blade"
+	},
+	"elements": [
+		{
+			"name": "blade",
+			"from": [9, -1, -4],
+			"to": [9, 15, 12],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [9, 7, 4]},
+			"faces": {
+				"east": {"uv": [0, 8, 4, 16], "texture": "#0"},
+				"west": {"uv": [4, 8, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [2.7, -2, 11],
+			"to": [18.7, 14, 11],
+			"rotation": {"angle": -45, "axis": "y", "origin": [10.7, 6, 11]},
+			"faces": {
+				"north": {"uv": [4, 8, 8, 16], "texture": "#0"},
+				"south": {"uv": [8, 8, 4, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [3, 0, 0],
+			"to": [3, 16, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [3, 8, 8]},
+			"faces": {
+				"east": {"uv": [12.25, 0, 8.25, 8], "texture": "#0"},
+				"west": {"uv": [8.25, 0, 12.25, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [5, 9.3, 2.1],
+			"to": [12, 9.3, 9.1],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.5, 9.3, 5.6]},
+			"faces": {
+				"up": {"uv": [2.63411, 0, 3.95117, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [3.95117, 0, 2.63411, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [0, 6.3, 4],
+			"to": [7, 6.3, 11],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [3.5, 6.3, 7.5]},
+			"faces": {
+				"up": {"uv": [2.63411, 0, 3.95117, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [3.95117, 0, 2.63411, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "flower",
+			"from": [7, 7.1, 7.3],
+			"to": [14, 7.1, 14.3],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [10.5, 7.1, 10.8]},
+			"faces": {
+				"up": {"uv": [2.63411, 0, 3.95117, 16], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [3.95117, 0, 2.63411, 16], "texture": "#1"}
+			}
+		}
+	]
+}
