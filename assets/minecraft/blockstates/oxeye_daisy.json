@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/oxeye_daisy_01", "weight": 50 },
+      { "model": "minecraft:block/oxeye_daisy_01", "weight": 50, "y": 90 },
+      { "model": "minecraft:block/oxeye_daisy_01", "weight": 50, "y": 180 },
+      { "model": "minecraft:block/oxeye_daisy_01", "weight": 50, "y": 270 },
+      { "model": "minecraft:block/oxeye_daisy_02", "weight": 50 },
+      { "model": "minecraft:block/oxeye_daisy_02", "weight": 50, "y": 90 },
+      { "model": "minecraft:block/oxeye_daisy_02", "weight": 50, "y": 180 },
+      { "model": "minecraft:block/oxeye_daisy_02", "weight": 50, "y": 270 }
+	]
+  }
+}
